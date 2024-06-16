@@ -13,6 +13,7 @@ Welcome to my SQL portfolio! This repository contains a collection of my SQL pro
   - **Description**: This project involves cleaning and transforming [raw coffee survey data](Coffee/GACTT_RESULTS_ANONYMIZED_v2.csv) to prepare it for analysis. The dataset includes information on drinkers' preference, demographic, and extensive attributes related to brew preference.
     - **SQL Skills Used**: Table Creation & Alteration, Data Manipulation, Data Type Conversion, Handling Missing Values, Normalization.
   - [View SQL Script](Coffee/coffee_dataCleaningProject.sql)
+  - [Original dataset from here.](https://github.com/rfordatascience/tidytuesday/blob/master/data/2024/2024-05-14/readme.md#coffee_surveycsv)
 
 ### 2. Exploratory Data Analysis (EDA)
 - **Project: Layoffs Exploratory Data Analysis**
