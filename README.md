@@ -6,7 +6,7 @@ Welcome to my SQL portfolio! This repository contains a collection of my SQL pro
 
 ### 1. Data Cleaning
 - **Project: Layoffs Data Cleaning**
-  - **Description**: This project involves cleaning and transforming [raw layoff data](Layoffs/layoffs.csv) to prepare it for analysis. The dataset includes information about layoffs across various companies and industries.
+  - **Description**: This project involves cleaning and transforming [raw layoff data](Layoffs/layoffs.csv) to prepare it for analysis. The dataset includes information about layoffs across various companies and industries during COVID-19 until present.
 	-	**SQL Skills Used**: Table Creation, Data Insertion, Removing Duplicates, Data Type Conversion, Common Table Expressions (CTEs), String Manipulation, Window Functions.
   - [View SQL Script](Layoffs/layoffs_dataCleaningProject.sql)
 - **Project: Coffee Survey Data Cleaning**
@@ -17,7 +17,7 @@ Welcome to my SQL portfolio! This repository contains a collection of my SQL pro
 
 ### 2. Exploratory Data Analysis (EDA)
 - **Project: Layoffs Exploratory Data Analysis**
-  - **Description**: This project involves analyzing the layoff data to identify trends, patterns, and insights. The goal is to understand the impact and distribution of layoffs across different sectors.
+  - **Description**: This project involves analyzing the layoff data to identify trends, patterns, and insights. The goal is to understand the impact and distribution of layoffs across different tech sectors.
 	-	**SQL Skills Used**: Aggregations, Group By, Joins, Window Functions, Date Functions.
   - [View SQL Script](Layoffs/layoffs_ExploratoryDataAnalysis.sql)
 

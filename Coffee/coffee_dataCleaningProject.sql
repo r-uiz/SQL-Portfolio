@@ -305,7 +305,7 @@ ALTER TABLE results_staging ADD COLUMN daily_coffee_cups_cleaned INT;
 UPDATE results_staging
 SET daily_coffee_cups_cleaned = CASE
     WHEN daily_coffee_cups = 'More than 4' THEN 5
-    /* made the executive decision to set this as 5. I would ask first if what
+    /* made the executive decision to set this as 5. I would ask first what
     value to set this to normally, but for now lets set 5 as the catchall for >4 */
     WHEN daily_coffee_cups = 'Less than 1' THEN 0 -- might as well count as 0
     WHEN daily_coffee_cups = '1' THEN 1
