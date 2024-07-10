@@ -17,7 +17,7 @@ The primary objective of this analysis was to explore trends in the release and 
 - **Popularity and Ratings**: Analyzing how these movies are received in terms of viewer ratings and popularity metrics.
 - **Genre Analysis**: Investigating the genres associated with LGBTQ+ movies and their distribution.
 
- Despite the main goal of the project being exploration, I still had to employ Python scripts to gather genre data from the TMDB API, as the original dataset did not include the names, but only the `genre ids`. The Python script can be found [here](gather_data.py), which resulted in the dataset [here](genre_data.csv).
+ Despite the main goal of the project being exploration, I still had to employ Python scripts to gather genre data from the TMDB API, as the original dataset did not include the names, but only the `genre ids`. The Python script can be found [here](gather_data.py), which resulted in the dataset [here](genres.csv).
 
  I also created a way to normalize the main dataset for me to have an accessible table for genre analysis, since the original dataset has a column of list values. The SQL script for this can be found [here](normalize_data.py), and the dataset can be found [here](normalized_data.csv).
 
