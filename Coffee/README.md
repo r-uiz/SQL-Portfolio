@@ -4,7 +4,7 @@ This dataset was collected in October 2023 when ["world champion barista" James 
 
 # Project Overview
 
-My main task was to clean up the [raw coffee survey data](GACTT_RESULTS_ANONYMIZED_v2.csv) and standardize certain aspects of it and prepare it for further analysis. The main things I did were to rename columns into sensible names & dropping some attributes for easier exploration, handling NULL values, and also reformatting some values' types.
+My main task was to clean up the [raw coffee survey data](GACTT_RESULTS_ANONYMIZED_v2.csv) and standardize certain aspects of it and prepare it for further analysis. The main things I did were to rename columns into sensible names & dropping some attributes for easier exploration, handling NULL values, and also reformatting some values' types. Dataset has **98 columns and 4k+ entries**.
 
   - **SQL Skills Used**: Table Creation & Alteration, Data Manipulation, Data Type Conversion, Handling Missing Values, Normalization.
   - [View SQL Script](Coffee/coffee_dataCleaningProject.sql)
